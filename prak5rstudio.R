@@ -1,0 +1,11 @@
+theo=read.delim("clipboard")
+View(theo)
+str(theo)
+mean(theo$Volume)
+t.test(theo$Volume, mu= 10)
+
+theo=read.delim("clipboard")
+View(theo)
+str(theo)
+mean(theo$Volume)
+t.test(theo$Volume, mu= 14500)
